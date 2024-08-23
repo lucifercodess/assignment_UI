@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Tyre Shop Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- styles page where i have written all the styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+
+  <!-- main body and components start from here -->
+  <body>
+
+
+    <!-- start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Tyre<span class="plex" style="color: red">Plex</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tyres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Car Tyres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bike Tyres</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+
+    <!-- start of shop section -->
+    <section class="shop-section mt-5">
+      <div class="container">
+        <div class="shop-box">
+          <div class="row">
+            <!-- Shop Details -->
+            <div class="col-md-6">
+              <h2>Ramesh Tyre Shop</h2>
+              <p class="address">Gurgoan, TyrePlex, sector 123</p>
+              <div class="star-rating mb-3">
+                <i class="fas fa-star star-gold"></i>
+                <i class="fas fa-star star-gold"></i>
+                <i class="fas fa-star star-gold"></i>
+                <i class="fas fa-star star-gold"></i>
+                <i class="fas fa-star star-grey"></i>
+              </div>
+              <a href="#" class="btn btn-primary">Get Directions</a>
+              <div class="reviews mt-4">
+                <h4>Customer Reviews</h4>
+                <div class="reviews-wrapper">
+                  <div class="review">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-user-circle review-icon"></i>
+                      <div class="ml-3">
+                        <strong>Virat Kohli</strong>
+                        <p>"Good Service my Audi loves it"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-user-circle review-icon"></i>
+                      <div class="ml-3">
+                        <strong>Ayush Dubey</strong>
+                        <p>"great!"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-user-circle review-icon"></i>
+                      <div class="ml-3">
+                        <strong>Ashu</strong>
+                        <p>"wait time was a lot!"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-user-circle review-icon"></i>
+                      <div class="ml-3">
+                        <strong>Raj</strong>
+                        <p>"everything great!"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-user-circle review-icon"></i>
+                      <div class="ml-3">
+                        <strong>Jason</strong>
+                        <p>"Not happy!"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Shop Images -->
+            <div class="col-md-6 d-flex">
+              <div class="img-container">
+                <img
+                  src="/Ui/public/images/tyre1.jpg"
+                  alt="Shop Image 1"
+                  class="img-fluid img-small"
+                />
+                <img
+                  src="/Ui/public/images/tyre2.png"
+                  alt="Shop Image 2"
+                  class="img-fluid img-small"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of shop seciotn -->
+
+
+
+     <!-- start of Services Offered by this Dealer -->
+    <div class="container mt-5">
+      <div class="services-box mt-4">
+        <div class="container">
+          <h3>Services offered by this dealer</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card text-center service-card">
+                <img
+                  src="/Ui/public/images/wheels.png"
+                  alt="Wheel Balancing"
+                  class="card-img img-fluid"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Wheel Balancing</h5>
+                  <a href="#" class="btn btn-danger">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card text-center service-card">
+                <img
+                  src="/Ui/public/images/wheel-alignment.png"
+                  alt="Wheel Alignment"
+                  class="card-img img-fluid"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Wheel Alignment</h5>
+                  <a href="#" class="btn btn-danger">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of services offered by the dealer -->
+
+
+
+
+      <!-- start of tTyres Sold by this Dealer -->
+      <section class="tyre-carousel mt-5">
+        <div class="container">
+          <h3>Tyres sold by this Dealer</h3>
+          <div class="carousel-wrapper">
+            <div class="carousel-content">
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Ui/public/images/apollo.jpeg" alt="Apollo Tyre" class="card-img-top" />
+                <div class="card-body">
+                  <h5 class="card-title">Apollo AMAZER 4G LIFE</h5>
+                  <p class="card-text">145/80 R12</p>
+                  <p class="card-text">₹ 3,136</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of tTyres Sold by this Dealer -->
+
+
+      <!--start of  Payment Mode -->
+      <div class="row mt-4 box">
+        <div class="col-md-12">
+          <h2>Payment Modes Accepted by the Dealer</h2>
+          <ul class="list-unstyled payment-list">
+            <li><i class="fa fa-check"></i> Deposit to Account</li>
+            <li><i class="fa fa-check"></i> Credit Card/Debit Card</li>
+            <li>
+              <i class="fa fa-check"></i> Wallets (PayTM/PhonePe/Amazon etc.)
+            </li>
+            <li><i class="fa fa-check"></i> Net Banking</li>
+            <li><i class="fa fa-check"></i> UPI</li>
+            <li><i class="fa fa-check"></i> Crypto Payments</li>
+          </ul>
+        </div>
+      </div>
+      <!-- end  of payment methods-->
+
+
+      <!-- start of search -->
+      <div class="search-container">
+        <div class="container">
+          <h2>Ask Anything about Tyres to our Experts!!</h2>
+          <div class="search-box">
+            <input type="text" class="form-control" placeholder="Search..." />
+            <button class="btn btn-primary">Ask</button>
+          </div>
+        </div>
+      </div>
+      <!-- end of search -->
+
+
+
+      <!--start of  Footer Section -->
+      <footer class="mt-5 pt-3 border-top box">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+              <h4 class="mb-3">TyrePlex</h4>
+              <p class="text-muted">Your go-to source for all things tyres.</p>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="text-decoration-none me-3"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <i class="fab fa-instagram ins"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h5 class="mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-dark d-block mb-2">Who We Are</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark d-block mb-2">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark d-block mb-2">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h5 class="mb-3">Resources</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-dark d-block mb-2">Terms of Use</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark d-block mb-2"
+                    >Are you a Tyre Dealer?</a
+                  >
+                </li>
+                <li><a href="#" class="text-dark d-block mb-2">Career</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-text text-center">
+            <p class="mb-0">
+              ©2024 TyrePlex Technologies & Commerce Pvt. Ltd. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS,popper, -->
+    <!-- needed for hamburger working  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
